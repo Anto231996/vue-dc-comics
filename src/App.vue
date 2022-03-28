@@ -5,6 +5,8 @@
     <IndexHeader />
     <!-- MAIN -->
     <IndexMain />
+    <!-- INFO -->
+    <IndexMainInfo />
     <!-- FOOTER -->
     <IndexFooter />
     
@@ -14,6 +16,7 @@
 <script>
 import IndexHeader from './components/IndexHeader.vue';
 import IndexMain from './components/IndexMain.vue';
+import IndexMainInfo from './components/IndexMainInfo.vue';
 import IndexFooter from './components/IndexFooter.vue';
 
 export default {
@@ -21,7 +24,8 @@ export default {
   components: {
     IndexHeader, 
     IndexMain, 
-    IndexFooter
+    IndexFooter,
+    IndexMainInfo
   }
 }
 </script>

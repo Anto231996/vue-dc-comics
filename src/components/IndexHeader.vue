@@ -99,8 +99,6 @@ export default {
     li{
       display: inline;
       margin-left: 1.7rem;
-      text-decoration: none;
-      list-style: none;
       text-transform: uppercase;
       font-weight: 600;
       font-size: .8rem;
