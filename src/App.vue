@@ -35,4 +35,8 @@ export default {
 @import "./assets/scss/style.scss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+div#app{
+  min-width: 1100px;
+}
+
 </style>
