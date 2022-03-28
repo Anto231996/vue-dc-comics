@@ -46,19 +46,9 @@ export default {
     height: 15vh;
     background-color: #0880f8;
 
-    div.wrapper{
-      width: 70%;
-      height: 100%;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
     div.wrapper > div a{
       display: flex;
       align-items: center;
-      justify-content: space-evenly;
     }
 
     div.wrapper > div a img{

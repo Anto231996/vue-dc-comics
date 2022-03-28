@@ -1,16 +1,18 @@
 <template>
   <div class="header-nav">
-    <div>
-      <img src="../assets/img/dc-logo.png" alt="main dc-logo">
-    </div>
-    <div>
-      <nav>
-        <ul>
-          <li v-for="(element, index) in navBarLink" :key="index">
-            <a href="#" :class="{active: element.current}">{{element.name}}</a>
-          </li>
-        </ul>
-      </nav>
+    <div class="wrapper">
+      <div>
+        <img src="../assets/img/dc-logo.png" alt="main dc-logo">
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li v-for="(element, index) in navBarLink" :key="index">
+              <a href="#" :class="{active: element.current}">{{element.name}}</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </div>
 </template>
@@ -90,11 +92,6 @@ export default {
 <style scoped lang="scss">
   div.header-nav{
     height: 15vh;
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
 
     li{
       display: inline;
@@ -104,7 +101,6 @@ export default {
       font-size: .8rem;
 
       a{
-        text-decoration: none;
         color: #212121;
       }
 

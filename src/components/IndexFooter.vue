@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="footer-top">
-      <div class="footer-wrapper">
+      <div class="wrapper">
         <div class="footer-links">
           <div>
             <nav>
@@ -52,7 +52,7 @@
 
 
     <div class="footer-bottom">
-      <div class="footer-wrapper">
+      <div class="wrapper">
         <div>
           <a id="sign-up" href="#">sign-up now!</a>
         </div>
@@ -236,46 +236,36 @@ export default {
     background-size: cover;
   }
 
-  div.footer-wrapper{
-    width: 70%;
-    height: 100%;
-    margin: 0 auto;
+
+
+  div.footer-links > div{
+    margin-right: 50px;
+  }
+
+  div.footer-links{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    div.footer-links > div{
-      margin-right: 50px;
-    }
+    li{
+      list-style: none;
+      font-size: .8rem;
+      margin-bottom: .3rem;
 
-    div.footer-links{
-      display: flex;
-
-      li{
-        list-style: none;
-        font-size: .8rem;
-        margin-bottom: .3rem;
-
-        a{
-          color: gray;
-        }
+      a{
+        color: gray;
       }
     }
   }
+  
 
   div.footer-bottom{
     height: 12vh;
     background-color: #333333;
     text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-
 
     a#sign-up{
       border: 2px solid #137beb;
       color: white;
       padding: 15px;
-      font-weight: 600;
     }
 
     div#social{
