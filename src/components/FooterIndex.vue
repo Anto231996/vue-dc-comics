@@ -82,10 +82,10 @@
 
 <script>
 export default {
- name: 'IndexFooter',
- data: function() {
-   return {
-     dccomicsFooterLink:[
+  name: 'FooterIndex',
+  data: function() {
+    return {
+      dccomicsFooterLink:[
       {
         name:"Characters",
         url: "#",
@@ -120,7 +120,7 @@ export default {
         name:"News",
         url: "#",
       }
-     ],
+    ],
 
       dcFooterLink:[
       {
@@ -177,7 +177,7 @@ export default {
         name:"Contact Us",
         url: "#",
       }
-     ],
+    ],
 
       sitesFooterLink:[
       {
@@ -204,7 +204,7 @@ export default {
         name:"DC Power Visa",
         url: "#",
       }
-     ],
+    ],
 
       shopFooterLink:[
       {
@@ -216,9 +216,9 @@ export default {
         name:"Shop DC Collectibles",
         url: "#",
       }
-     ]
-   }
- },
+    ]
+  }
+},
 }
 </script>
 
@@ -231,7 +231,7 @@ export default {
   }
 
   div.footer-top{
-    height: 43vh;
+    height: 400px;
     background-image: url(../assets/img/footer-bg.jpg);
     background-size: cover;
   }
@@ -258,7 +258,7 @@ export default {
   
 
   div.footer-bottom{
-    height: 12vh;
+    height: 120px;
     background-color: #333333;
     text-transform: uppercase;
 

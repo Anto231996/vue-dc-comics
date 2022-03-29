@@ -37,13 +37,13 @@
 
 <script>
 export default {
- name: 'IndexMainInfo',
+  name: 'MainInfo',
 }
 </script>
 
 <style scoped lang="scss">
   div.main-info{
-    height: 15vh;
+    height: 160px;
     background-color: #0880f8;
 
     div.wrapper > div a{

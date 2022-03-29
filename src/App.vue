@@ -1,31 +1,27 @@
 <template>
   <div id="app">
 
-    <!-- HEADER -->
-    <IndexHeader />
-    <!-- MAIN -->
-    <IndexMain />
-    <!-- INFO -->
-    <IndexMainInfo />
-    <!-- FOOTER -->
-    <IndexFooter />
+    <HeaderIndex />
+    <MainCurrentSeries />
+    <MainInfo />
+    <FooterIndex />
     
   </div>
 </template>
 
 <script>
-import IndexHeader from './components/IndexHeader.vue';
-import IndexMain from './components/IndexMain.vue';
-import IndexMainInfo from './components/IndexMainInfo.vue';
-import IndexFooter from './components/IndexFooter.vue';
+import HeaderIndex from './components/HeaderIndex.vue';
+import MainCurrentSeries from './components/MainCurrentSeries.vue';
+import MainInfo from './components/MainInfo.vue';
+import FooterIndex from './components/FooterIndex.vue';
 
 export default {
   name: 'App',
   components: {
-    IndexHeader, 
-    IndexMain, 
-    IndexFooter,
-    IndexMainInfo
+    HeaderIndex, 
+    MainCurrentSeries, 
+    MainInfo,
+    FooterIndex
   }
 }
 </script>
@@ -36,7 +32,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 div#app{
-  min-width: 1100px;
+  min-width: 1800px;
 }
 
 </style>
